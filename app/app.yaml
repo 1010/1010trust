@@ -1,0 +1,14 @@
+application: 1010-charitable-trust
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /mytag
+  static_files: mytag.html
+  upload: mytag.html
+  mime_type: text/html; charset=UTF-8
+
+- url: /(.+\.(css|js|jpg|png|swf))
+  static_files: \1
+  upload: .+
