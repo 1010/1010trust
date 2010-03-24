@@ -7,15 +7,24 @@
     <script type='text/javascript' src='/js/lib/sifr-config.js'></script>
     <script type='text/javascript'>
     sIFR.replace(genesis, { selector: 'h2', css: '.sIFR-root { color: #BFBFBF; font-size: 25px; text-transform:uppercase; }', wmode: 'transparent' });
-    sIFR.replace(genesis, { selector: 'h1', css: '.sIFR-root { color: #363427; text-transform:uppercase;}', wmode: 'transparent' });
+    sIFR.replace(genesis, { selector: 'h1', css: '.sIFR-root { color: #363427; text-transform:uppercase;font-size:60px}', wmode: 'transparent' });
     </script>
 
     <style type="text/css">
     body {
       font-family: 'Lucida Grande', 'Lucida Sans', sans-serif;
+      background:url('images/mytag/bg.png') no-repeat fixed 0 0;
+      color:#6C735E;
     }
+    a {color:#F83195;text-decoration:none;}
     p {
       font-size: 13px;
+    }
+    h3 {
+        color:#777F68;
+        font-size:15px;
+        font-weight:bold;
+        line-height:1.5em;
     }
     div#shop {
         height:170px;
@@ -32,11 +41,12 @@
         color:#F83195;
         background:#FFE7F2;
     }
+    div#shop form input#buy_now{margin-top:30px;}
     </style>
   </head>
   <body>
     <h1 style="margin:30px 0 10px 0">Get a tag</h1>
-    <p>Get a Tag in return for a £2 donation to the 10:10 Charitable Trust.</p>
+    <h3>Get a Tag in return for a £2 donation to the 10:10 Charitable Trust.</h3>
     <img style="float:left; margin-right:20px; width:180px; height:235px" src="/images/mytag/packaged-tag.jpg" alt="">
     <div id="shop">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -59,5 +69,6 @@
             <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
         </form>
     </div>
+    <p style="clear:both">Note: postage and packing fees are extra.</p><p>Need more than 20 tags? Get in touch and tell us your requirements &gt;&gt; <a href="mailto:tags@1010uk.org">tags@1010uk.org</a>.</p>
   </body>
 </html>
