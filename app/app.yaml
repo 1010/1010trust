@@ -5,10 +5,8 @@ api_version: 1
 
 handlers:
 - url: /mytag
-  static_files: mytag.html
-  upload: mytag.html
-  mime_type: text/html; charset=UTF-8
+  script: split_test.py
 
 - url: /(.+\.(css|js|jpg|png|swf))
   static_files: \1
-  upload: .+
+  upload: .+\.(css|js|jpg|png|swf)

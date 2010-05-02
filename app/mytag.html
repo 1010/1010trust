@@ -64,6 +64,7 @@
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_cart">
             <input type="hidden" name="upload" value="1">
+            <input type="hidden" name="custom" value="split group {{ split_group|escape }}">
 
             <table>
                 <tr><td><h2>How many tags?</h2></td></tr>
@@ -98,7 +99,12 @@
                   <input type="hidden" name="item_name_2" value="Donation">
                   <input type="hidden" name="shipping_2" value="0">
                   <input type="hidden" name="shipping2_2" value="0">
-                  <input type="text" name="amount_2" value="5.00">
+                  {% ifequal split_group "d5" %}
+                    <input type="text" name="amount_2" value="5.00">
+                  {% endifequal %}
+                  {% ifequal split_group "d1010" %}
+                    <input type="text" name="amount_2" value="10.10">
+                  {% endifequal %}
                 </td></tr>
             </table>
 
