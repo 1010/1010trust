@@ -5,7 +5,8 @@ api_version: 1
 
 handlers:
 - url: /mytag
-  script: split_test.py
+  #script: split_test.py
+  script: redirect.py
 
 - url: /(.+\.(css|js|jpg|png|swf))
   static_files: \1
