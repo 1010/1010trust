@@ -6,6 +6,7 @@ Author: 10:10
 Version: 0.1
 */
 
+/* It's a reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -59,14 +60,14 @@ body #wrapper #blob_head {
 }
 
 body #wrapper #blob_head #headerimg {
-  margin: 40px 0 0 60px;
+  padding: 40px 0 0 60px;
 }
 
 body #wrapper #blob_head .menu ul {
   font: 19px "Proxima Nova Sbold";
   float: right;
-  padding: 0 50px 0 0;
-  margin: 0;
+  padding: 7px 50px 7px 0;
+  margin-top: -12px;
 }
 
 body #wrapper #blob_head .menu ul li {
@@ -75,11 +76,11 @@ body #wrapper #blob_head .menu ul li {
 }
 
 body #wrapper #blob_head .menu ul li a {
-  text-decoration: none;
+  border: 2px #dededd solid;
   color: #686866;
   margin-left: 5px;
-  padding: 5px 10px;
-  border: 2px #dededd solid;
+  padding: 3px 8px;
+  text-decoration: none;
 }
 
 body #wrapper #blob_head .menu ul li a:hover,
@@ -88,9 +89,9 @@ body #wrapper #blob_head .menu ul .current_page_item a {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   background-color: #d5442e;
-  color: white;
-  padding: 5px 10px;
   border: 2px #cd0019 solid;
+  color: white;
+  padding: 3px 8px;
 }
 
 body #wrapper #blob_main {
@@ -109,31 +110,30 @@ body #wrapper #blob_main #content {
   width: 330px;
 }
 
-body #wrapper #blob_main #content #links {
-  padding: 0;
-  margin: 40px 0 0 0;
-  text-align: center;
-  list-style-type: none;
+body #wrapper #blob_main #content p {
+  padding: 0 0 20px;
 }
 
-body #wrapper #blob_main #content #links li {
-  color: #9c9ea0;
+body #wrapper #blob_main #content div#links {
+  padding: 0;
+  margin: 20px 0 0;
+  text-align: center;
+}
+
+body #wrapper #blob_main #content div#links a {
+  color: #cd0019;
   font: 16px "Proxima Nova Sbold";
   display: inline-block;
   text-transform: uppercase;
-  text-align: center;
-  width: 100px;
+  width: 30%;
   padding: 0;
   margin: 0;
-}
-
-body #wrapper #blob_main #content #links li a {
-  color: #cd0019;
   text-decoration: none;
+
 }
 
-body #wrapper #blob_main #content #links li a:hover {
-  text-decoration: underline;
+body #wrapper #blob_main #content div#links a .grey {
+  color: #9c9ea0;
 }
 
 body #wrapper #footer {
