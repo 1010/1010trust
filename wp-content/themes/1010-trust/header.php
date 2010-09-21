@@ -16,7 +16,12 @@
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+    <?php wp_enqueue_script("jquery"); ?>
     <?php	wp_head(); ?>
+    <!--[if lt IE 8]>
+      <script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/jquery.corner.js"></script>
+      <script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/1010trust_ie.js"></script>
+    <![endif]-->
   </head>
   
   <body <?php body_class(); ?>>
