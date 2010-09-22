@@ -76,10 +76,9 @@ body #wrapper #blob_head .menu ul li {
 }
 
 body #wrapper #blob_head .menu ul li a {
-  border: 2px #DEDEDE solid;
   color: #686866;
   margin-left: 5px;
-  padding: 3px 8px;
+  padding: 3px 10px;
   text-decoration: none;
 }
 
