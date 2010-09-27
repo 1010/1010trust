@@ -23,6 +23,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 }
 
+a {
+  color: #CD0019;
+}
+
 @font-face {
     font-family: "Georgia";
     src: url('font/georgia.ttf');
