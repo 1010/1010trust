@@ -42,12 +42,20 @@ a {
     src: url('font/proxima_nova_reg.otf');
 }
 
+h3 {
+  color: #cd0019;
+  font:20px 'Proxima Nova Sbold','Lucida Grande','Lucida Sans',sans-serif;
+  line-height: 22px;
+  padding-bottom: 10px;
+}
+
 body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font: 18px 'Proxima Nova Reg','Lucida Grande','Lucida Sans',sans-serif;
+  font: 16px 'Proxima Nova Reg','Lucida Grande','Lucida Sans',sans-serif;
   background: #35362F url('img/bg-body.jpg') repeat-y fixed top center;
+  line-height: 20px;
   color: #6C735E;
 }
 
@@ -171,7 +179,7 @@ body #wrapper #footer #col2 {
 
 body #wrapper #footer #col1,
 body #wrapper #footer #col2 {
-  margin: 60px 50px;
+  margin: 60px 30px;
 }
 
 .post-edit-link {
