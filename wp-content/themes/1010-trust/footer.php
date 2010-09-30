@@ -12,8 +12,8 @@
 ?>
       <div id="footer">
         <div id="col1">
-          Charity number: 32154698<br />
-          Company number: 5465335
+          Charity number: 1137030<br />
+          Company number: 07223810
         </div>
         <div id="col2">
           8a Delancey Passage<br />
