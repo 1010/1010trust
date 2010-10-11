@@ -28,5 +28,5 @@
     <div id="wrapper">
       <div id="blob_head">
         <img id="headerimg" alt="10:10 Trust" src="<?php bloginfo('template_url') ?>/img/1010trust-header.png" />
-        <?php wp_page_menu(array('show_home'=>true)); ?>
+        <?php wp_page_menu(array('show_home'=>true, 'exclude'=>52)); ?>
       </div><!-- #blob_head -->
