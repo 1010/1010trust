@@ -13,11 +13,13 @@
       <div id="footer">
         <div id="col1">
           Charity number: 1137030<br />
-          Company number: 07223810
+          Company number: 07223810<br />
+          <a href="<?php bloginfo( 'home' ); ?>/terms-and-conditions">Website terms of use</a>
         </div>
         <div id="col2">
           8a Delancey Passage<br />
-          London NW1 7NN
+          London<br />
+          NW1 7NN
         </div>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
