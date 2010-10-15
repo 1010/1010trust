@@ -168,6 +168,10 @@ body #wrapper #footer {
   margin: 20px 0;
 }
 
+body #wrapper #footer a {
+  color: white;
+}
+
 body #wrapper #footer #col1 {
   float: left;
 }
