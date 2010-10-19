@@ -16,6 +16,7 @@
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+    <link rel="shortcut icon" href="<?php bloginfo('template_url') ?>/img/favicon.ico" type="image/x-icon" />
     <?php wp_enqueue_script("jquery"); ?>
     <?php	wp_head(); ?>
     <!--[if lt IE 8]>
