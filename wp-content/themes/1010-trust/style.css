@@ -54,7 +54,7 @@ body {
   margin: 0;
   padding: 0;
   font: 16px 'Proxima Nova Reg','Lucida Grande','Lucida Sans',sans-serif;
-  background: #35362F url('img/bg-body.jpg') repeat-y fixed top center;
+  background: #35362F url('img/bg-bump.gif') no-repeat fixed center -400px;
   line-height: 20px;
   color: #6C735E;
 }
