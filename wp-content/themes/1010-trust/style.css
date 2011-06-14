@@ -49,6 +49,12 @@ h3 {
   padding-bottom: 10px;
 }
 
+h4 {
+  color: #CD0019;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 body {
   height: 100%;
   margin: 0;
